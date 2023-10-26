@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sometype Mono', monospace;;
+}
+
+header h2 {
+    background-color: #5a71bb;
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+
+.lista-cadastro {
+    display: flex;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+.lista-cadastro input[type=text] {
+    flex: 1;
+    height: 40px;
+    padding-left: 20px;
+
+}
+
+.lista-produto-single {
+    padding: 10px 0;
+    margin: 20px 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+
+}
+
+.lista-produto-single h3{
+    flex: 1;
+    padding: 0 20px;
+}
+
+h3.price-produto {
+    text-align: right;
+    font-size: 17px;
+
+}
+
+h3.price-produto > span {
+    background-color: #5a71bb;
+    padding: 8px 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+.soma-produto {
+    margin: 20px;
+}
+
+.button {
+    background-color: #5a71bb;
+    text-align: center;
+    width: 70px; /* Defina a largura desejada */
+    margin: 100px auto; /* Centralize verticalmente (100px no topo e automático na margem esquerda/direita) */
+    padding: 8px 10px;
+    border-radius: 20px;
+}
+
